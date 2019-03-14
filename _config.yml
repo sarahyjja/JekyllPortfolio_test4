@@ -15,6 +15,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  - projects
+
+# Navbar links
+links:
+  - name: home
+    link: /
+  - name: about
+    link: /about/
+  - name: contact
+    link: /contact/
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
