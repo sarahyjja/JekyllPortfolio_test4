@@ -21,7 +21,7 @@ collections:
 # Navbar links
 links:
   - name: home
-    link: /
+    link: /home/
   - name: about
     link: /about/
   - name: contact
