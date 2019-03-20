@@ -1,18 +1,17 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 ---
-{% include navbar.html %}
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+ABOUT ME...
+I am a designer with a lot of imagination and big dreams.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+WHAT I DO
+I love designing beautiful, clean and user-friendly websites and identities. I’m passionate about finding good ideas, organizing them, developing them into a project and bringing them to life.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+EDUCATION
+I graduated with a Bachelor in Graphic Design at ÉSAD (École Supérieure d’Art et de Design), France in 2009. Then I completed a postgraduate school in Multimedia at INFA (Institut National de Formation et d’Application), France in 2012.
 
-
-[jekyll-organization]: https://github.com/jekyll
+In November 2012, I received government funding to develop my own creative business. I ran a small start-up company named Faire Part de toi specializing in personalized greeting cards.
+​
+Few  years ago, I changed scenery and moved to London. I'm now an accomplished freelance Designer, an art director and on my way to become a developer.
