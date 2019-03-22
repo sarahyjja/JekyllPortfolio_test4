@@ -1,7 +1,7 @@
 <nav class="nav">
     {% for item in site.links %}
-      <a href="{{ item.link }}" {% if page.url == item.link %} {% endif %}>
+      <a class="nav__a" href="{{ item.link }}" {% if page.url == item.link %} {% endif %}>
         {{ item.name }}
       </a>
     {% endfor %}
-  </nav>
+</nav>

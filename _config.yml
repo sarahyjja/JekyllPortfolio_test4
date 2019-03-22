@@ -17,6 +17,9 @@ plugins:
 
 collections:
   - projects
+    # - scope:
+    #   - link: /un/
+
 
 # Navbar links
 links:
