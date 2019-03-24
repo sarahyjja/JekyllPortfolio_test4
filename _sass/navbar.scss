@@ -1,14 +1,14 @@
 .nav {
-  list-style-type: none;
-  margin: 30px;
-  padding: 0px;
-  width: 200px;
+  width: 100%;
   color: #f1f1f1;
+  text-align: center;
 }
 
 .nav__item {
+  margin-left: 3%;
+  margin-right: 3%;
   color: #ccc;
-  font-family: 'Baloo Chettan', cursive;
+  font-family: 'Miriam Libre', sans-serif;
   text-decoration: none;
 }
 
