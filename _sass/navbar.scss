@@ -1,12 +1,17 @@
 .nav {
   list-style-type: none;
-  margin: 30;
-  padding: 0;
+  margin: 30px;
+  padding: 0px;
   width: 200px;
   color: #f1f1f1;
 }
 
-.nav__a {
+.nav__item {
   color: #ccc;
   font-family: 'Baloo Chettan', cursive;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #678678;
 }
