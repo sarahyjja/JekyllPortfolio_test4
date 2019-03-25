@@ -4,5 +4,6 @@ layout: default
 
     {% for project in site.projects %}
       <a href="{{ project.url }}">{{ project.name }}</a>
-      {% if project.url == item.link %} {% endif %}
+      {% if project.url == item.link %}
+      {% endif %}
     {% endfor %}

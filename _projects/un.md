@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title:  First project
 name: un project
 permalink: /un/

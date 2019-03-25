@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title:  Third project
 name: troisieme project
 permalink: /third/
