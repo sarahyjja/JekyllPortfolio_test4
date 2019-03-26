@@ -3,7 +3,8 @@ layout: default
 ---
 
     {% for project in site.projects %}
-      <a href="{{ project.url }}">{{ project.name }}</a>
+      <a href="{{ project.url }}">{{ project.title }}</a>
+      <img src="{{site.baseurl}}/assets/images/{{project.image}}" alt="">
       {% if project.url == item.link %}
       {% endif %}
     {% endfor %}
