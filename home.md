@@ -1,5 +1,5 @@
 ---
-layout: indexpage
+layout: homepage
 title: Home
 permalink: /
 ---
