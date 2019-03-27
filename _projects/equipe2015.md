@@ -6,4 +6,5 @@ image: equipe2015_1.jpg
 permalink: /equipe2015/
 ---
 
-equipe 20165project
+equipe 2016 project
+![Equipe](/assets/images/otarie.jpg)
