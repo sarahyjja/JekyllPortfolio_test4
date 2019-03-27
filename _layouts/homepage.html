@@ -1,20 +1,12 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
-<html>
   <div class="homeContent">
     {% for project in site.projects %}
-      <img src="{{site.baseurl}}/assets/images/{{project.image}}" alt="Design projects" class="stylingImg"/>
-      <a href="{{ project.url }}">{{ project.title }}</a>
-      {% if project.url == item.link %}
-
-      {% endif %}
+    <div class="itemContent">
+      <img class="stylingImg" src="{{site.baseurl}}/assets/images/homepage/{{project.image}}" alt="Design projects"/>
+      <a class="projectLinks" href="{{ project.url }}">{{ project.title }}</a>
+      {% if project.url == item.link %}{% endif %}
+    </div>
     {% endfor %}
   </div>
-</html>
-  <!-- {% for item in site.links %}
-    <a href="{{ item.link }}" {% if page.url == item.link %} {% endif %}>
-      {{ item.name | upcase }}
-    </a>
-  {% endfor %} -->
