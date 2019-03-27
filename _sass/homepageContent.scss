@@ -1,0 +1,30 @@
+.homeContent {
+  background-color: #019283;
+  margin-top: 50px;
+  width: 100%;
+  // height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemContent{
+  background-color: #a7a8d8;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.stylingImg {
+  width: auto;
+  height: 200px;
+}
+
+.projectLinks {
+  font-size: 1.5em;
+  background-color: #862345;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}

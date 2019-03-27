@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <title>{{page.title}}</title>
 </head>
 <body class="colorful">
+    <div class="name">
+      <h1 class="name__item">Sarah Kharraz</h1>
+    </div>
     {% include navbar.html %}
-
-    {% for project in site.projects %}
-      <a href="{{ project.url }}">{{ project.name }}</a>
-      {% if project.url == item.link %} {% endif %}
-    {% endfor %}
+    {{ content }}
 </body>
 </html>
