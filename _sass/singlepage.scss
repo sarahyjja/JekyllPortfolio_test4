@@ -1,15 +1,32 @@
 .projectContent {
-  background-color: #019283;
+  background-color: #945673;
   margin-top: 50px;
   width: 100%;
 }
 
-.title {
-color: #545454;
-font-size: 3em;
+.columnLeft{
+flex-direction: column;
+background-color: #777d77;
+width: 50%;
 }
 
+.columnRight{
+flex-direction: column;
+}
+
+// h1 {
+// color: #545454;
+// font-size: 1.5em;
+// }
+//
 .imageContent {
+  border-radius: 50px;
   width: 200px;
   height: 200px;
 }
+
+// img {
+//   width: auto;
+//   height: 200px;
+//   border-radius: 50px;
+// }

@@ -3,8 +3,25 @@ layout: default
 ---
 
 <div class="projectContent">
-    <h1 class="title">{{project.title}}</h1>
-    <h2>{{project.name}}</h2>
-    <p>{{content}}</p>
-    <img class="imageContent" src="{{site.baseurl}}/assets/images/{{project.image}}" alt="Crepes a la carte restaurant website"/>
+  <div class="columnLeft">
+    {{content}}
+  </div>
+  <div class="columnRight">
+    {% for imageNumber in (1..page.photos.size) %}
+      <img class="imageContent" src="{{site.baseurl}}/assets/images/photos/{{page.photos.set}}-{{ imageNumber }}.{{ page.photos.extension }}" alt="Crepes a la carte restaurant website"/>
+    {% endfor %}
+  </div>
 </div>
+
+
+
+
+
+<!-- {% if project.img %}
+  <img class="caption__media" data-interchange="
+  {% for img in page.img %}
+    [{{site.baseurl}}/asset/img/{{img[1]}} ({{img[0]}})]
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+  ">
+{% endif %} -->
