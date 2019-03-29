@@ -7,20 +7,21 @@
 }
 
 .columnLeft{
-flex-direction: column;
-background-color: #222d77;
-width: 50%;
-}
-
-.columnRight{
-background-color: #5e5e5e;
-display: flex;
-align-items: flex-end;
-width: 50%;
+  width: 50%;
+  background-color: #fff984;
+  display: flex;
+  align-items: flex-end;
+  flex-direction:column;
 }
 
 .imageContent {
-  border-radius: 50px;
-  width: 200px;
-  height: 200px;
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+}
+
+.columnRight{
+flex-direction: column;
+background-color: #a3af98;
+width: 50%;
 }
