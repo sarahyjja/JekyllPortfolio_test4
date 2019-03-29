@@ -1,17 +1,22 @@
 .projectContent {
-  background-color: #945673;
+  background-color: #1234ee;
   margin-top: 50px;
   width: 100%;
+  display: flex;
+  // justify-content: center;
 }
 
 .columnLeft{
 flex-direction: column;
-background-color: #777d77;
+background-color: #222d77;
 width: 50%;
 }
 
 .columnRight{
-flex-direction: column;
+background-color: #5e5e5e;
+display: flex;
+align-items: flex-end;
+width: 50%;
 }
 
 .imageContent {

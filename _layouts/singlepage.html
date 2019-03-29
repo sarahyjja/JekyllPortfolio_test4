@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="projectContent">
   <div class="columnLeft">
-    {{content}}
-  </div>
-  <div class="columnRight">
     {% for imageNumber in (1..page.photos.size) %}
       <img class="imageContent" src="{{site.baseurl}}/assets/images/photos/{{page.photos.set}}-{{ imageNumber }}.{{ page.photos.extension }}" alt="Crepes a la carte restaurant website"/>
     {% endfor %}
+  </div>
+  <div class="columnRight">
+    {{content}}
   </div>
 </div>
