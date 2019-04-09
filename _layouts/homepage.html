@@ -4,7 +4,6 @@ layout: default
   <div class="homeContent">
     {% for project in site.projects %}
     <div class="itemContent">
-      <!-- <img class="stylingImg" src="{{site.baseurl}}/assets/images/homepage/{{project.image}}" alt="Design projects"/> -->
       <a class="projectLinks" href="{{ project.url }}"><img class="stylingImg" src="{{site.baseurl}}/assets/images/homepage/{{project.image}}" alt="Design projects"/></a>
       {% if project.url == item.link %}{% endif %}
     </div>
