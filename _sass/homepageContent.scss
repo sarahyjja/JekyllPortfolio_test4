@@ -1,5 +1,4 @@
 .homeContent {
-  background-color: #019283;
   margin-top: 50px;
   width: 100%;
   height: auto;
@@ -8,33 +7,22 @@
   flex-wrap: wrap;
 
   display: grid;
-  // grid-template-columns: repeat(3, 3fr);
   grid-template-columns: [line1] 33% [line2] 33% [line3] 33% [end];
   grid-template-rows: [row1] 25% [row2] 25% [row3] auto [last-line];
-  grid-gap: 5px;
+  grid-gap: 15px;
 }
 
 .itemContent{
-  background-color: #a7a8d8;
-
   display: flex;
   flex-flow: row wrap;
-  align-items: flex-start;
-  align-content: center;
-
-  // grid-column: 1/3;
 }
 
 .stylingImg {
-  width: 98%;
+  width: 100%;
   height: auto;
   display: flex;
 }
 
 .projectLinks {
   align-content: center;
-  // font-size: 1.5em;
-  // background-color: #862345;
-  // text-decoration: none;
-  // font-family: 'Open Sans Condensed', sans-serif;
 }
