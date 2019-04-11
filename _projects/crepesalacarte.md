@@ -11,6 +11,9 @@ photos:
   extension: jpg
 ---
 
-Crepes project
+<h1>CREPES A LA CARTE</h1>
 
-Website for the brand Crepes a la Carte London - [crepesalacarte](www.crepesalacarte.co.uk)
+Website for the brand Crepes a la Carte restaurant London - [crepesalacarte](www.crepesalacarte.co.uk)
+
+
+Site web pour le restaurant Crepes a la Carte Londres - [crepesalacarte](www.crepesalacarte.co.uk)
