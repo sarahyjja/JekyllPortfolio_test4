@@ -1,15 +1,33 @@
 .projectContent {
-  background-color: #019283;
   margin-top: 50px;
   width: 100%;
+  display: flex;
+  // justify-content: center;
 }
 
-.title {
-color: #545454;
-font-size: 3em;
+.columnLeft{
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction:column;
 }
 
 .imageContent {
-  width: 200px;
-  height: 200px;
+  width: 95%;
+  height: auto;
+  display: flex;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px 8px 0px #aaa;
+}
+
+.columnRight{
+  flex-direction: column;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 5%;
+  color: #777;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  margin-top: 10px;
 }

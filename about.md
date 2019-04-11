@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: about
 title: About
 permalink: /about/
 ---
-ABOUT ME...
+<h1>about me...</h1>
 I am a designer with a lot of imagination and big dreams.
 
-WHAT I DO
+<h2>WHAT I DO</h2>
 I love designing beautiful, clean and user-friendly websites and identities. I’m passionate about finding good ideas, organizing them, developing them into a project and bringing them to life.
 
-EDUCATION
+<h2>EDUCATION</h2>
 I graduated with a Bachelor in Graphic Design at ÉSAD (École Supérieure d’Art et de Design), France in 2009. Then I completed a postgraduate school in Multimedia at INFA (Institut National de Formation et d’Application), France in 2012.
 
 In November 2012, I received government funding to develop my own creative business. I ran a small start-up company named Faire Part de toi specializing in personalized greeting cards.

@@ -1,12 +1,19 @@
 ---
-layout: default
+layout: singlepage
 title:  Crepes a la Carte
 name: Website
-image: crepes2.jpg
+image: crepes-2.jpg
 permalink: /crepesalacarte/
+description: Website for the brand Crepes a la Carte London -
+photos:
+  set: crepes
+  size: 3
+  extension: jpg
 ---
 
-Crepes a la carte project
-![Crepes A La Carte crepes restaurant](/assets/images/crepes-a-la-carte/crepes1.jpg)
-![Crepes A La Carte crepes restaurant](/assets/images/crepes-a-la-carte/crepes2.jpg)
-![Crepes A La Carte crepes restaurant](/assets/images/crepes-a-la-carte/crepes3.jpg)
+<h1>CREPES A LA CARTE</h1>
+
+Website for the brand Crepes a la Carte restaurant London - [crepesalacarte](www.crepesalacarte.co.uk)
+
+
+Site web pour le restaurant Crepes a la Carte Londres - [crepesalacarte](www.crepesalacarte.co.uk)
